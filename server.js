@@ -31,7 +31,7 @@ mongoose.connect(dbConfig.url, {
 
 // define a root/default route
 app.get('/', (req, res) => {
-    res.json({"message": "Hello World"});
+    res.json({"message": "Make Post Request to Add Data"});
 });
 
 // Require Users routes
